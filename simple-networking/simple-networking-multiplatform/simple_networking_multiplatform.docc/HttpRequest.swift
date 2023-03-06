@@ -24,7 +24,6 @@ struct Request {
     }
 }
 
-
 protocol HttpRequest {
     let path: String {get}
     let method: HttpMethod {get}
